@@ -1,0 +1,61 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.logo{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px;
+}
+.card img{
+  object-fit: contain;
+}
+.card .texts{
+   line-height: 10px;
+}
+.button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/* ::-webkit-scrollbar{ */
+  /* display: none;
+} */
+.blogs{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
